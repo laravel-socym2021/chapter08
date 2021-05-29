@@ -63,3 +63,9 @@ $ make
 $ docker-compose exec php bash
 root@f5ab4e483701:/var/www/html# php artisan
 ```
+
+* 実行環境を破棄するには下記のように `make clean` コマンドを実行してください。
+
+```sh
+$ make clean
+```
