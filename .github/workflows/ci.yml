@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run phpstan
-      run: make phpstan
     - name: Build the stack and run test
       run: make
     - name: Run test on PHP 8
       run: make test-php8
+    - name: Run phpstan
+      run: make phpstan
